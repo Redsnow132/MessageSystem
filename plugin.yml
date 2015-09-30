@@ -1,0 +1,25 @@
+name: MessageSystem
+author: FlamingGenius
+description: all messaging options in one plugin
+main: FlamingGenius\MessageSystem\main
+api: 1.10.0
+version: 1.0.0
+commands:
+ broadcast:
+  description: Broadcast a msg
+  default: op
+ bgod:
+  description: Broadcast msg as God
+  default: op
+ bhero:
+  description: Broadcast msg as herobrine
+  default: op
+ announce:
+  description: Broadcast announce msg
+  default: op
+ server: 
+  description: Broadcast msg as server
+  default: op
+ console:
+  description: Broadcast msg as console
+  default: op

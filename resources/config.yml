@@ -1,15 +1,16 @@
 ---
 broadcast: [BROADCAST]
-
+color: 
 bgod: [GOD]
-
+color:
 bhero: [HEROBRINE]
-
+color:
 announce: [ANNOUNCE]
-
+color:
 server: [SERVER]
-
+color:
 console: [CONSOLE]
-
+color:
 bcia: [CIA]
+color:
 ...

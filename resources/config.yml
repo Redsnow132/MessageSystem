@@ -1,3 +1,15 @@
 ---
-enabled: "true"
+broadcast: [BROADCAST]
+
+bgod: [GOD]
+
+bhero: [HEROBRINE]
+
+announce: [ANNOUNCE]
+
+server: [SERVER]
+
+console: [CONSOLE]
+
+bcia: [CIA]
 ...

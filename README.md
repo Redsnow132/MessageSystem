@@ -44,7 +44,7 @@ As of right now the messages available for use are
     /bcia <msg>
 
 
-    Commands
+  Commands
 
     commands:
      broadcast:

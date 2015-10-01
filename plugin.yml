@@ -2,34 +2,41 @@ name: MessageSystem
 author: FlamingGenius
 description: all messaging options in one plugin
 main: FlamingGenius\MessageSystem\main
-api: 1.10.0
+api: 1.12.0
 version: 1.0.0
 commands:
  broadcast:
   description: Broadcast a msg
   default: op
   usage: "/broadcast <msg>"
+  aliases: [br]
  bgod:
   description: Broadcast msg as God
   default: op
   usage: "/bgod <msg>"
+  aliases: [bg]
  bhero:
   description: Broadcast msg as herobrine
   default: op
   usage: "/bhero <msg>"
+  aliases: [bh]
  announce:
   description: Broadcast announce msg
   default: op
   usage: "/announce <msg>"
+  aliases: [an]
  server: 
   description: Broadcast msg as server
   default: op
   usage: "/server <msg>"
+  aliases: [se]
  console:
   description: Broadcast msg as console
   default: op
   usage: "/console <msg>"
+  aliases: [con]
  bcia:
   description: Broadcast message as CIA
   default: op
   usage: "/bcia <msg>"
+  aliases: [bc]

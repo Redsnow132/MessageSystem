@@ -1,22 +1,30 @@
 ---
 broadcast-tag: [BROADCAST]
 broadcast-color: 
+brm-color:
 
 bgod-tag: [GOD]
 bgod-color:
+bgm-color:
+
 
 bhero-tag: [HEROBRINE]
 bhero-color:
+bhm-color:
 
 announce-tag: [ANNOUNCE]
 announce-color:
+anm-color:
 
 server-tag: [SERVER]
 server-color:
+sem-color:
 
 console-tag: [CONSOLE]
 console-color:
+com-color:
 
 bcia-tag: [CIA]
 bcia-color:
+bcm-color:
 ...

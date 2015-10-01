@@ -23,43 +23,43 @@ class main extends PluginBase{
   if(strtolower($cmd) == "broadcast"){
    $tag = $this->getConfig()->get("broadcast-tag");
    $color = $this->getConfig()->get("broadcast-color");
-   $this->getServer()->broadcastMessage("[Broadcast]§6" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
 
   elseif(strtolower($cmd) == "bgod"){
    $tag = $this->getConfig()->get("bgod-tag");
    $color = $this->getConfig()->get("bgod-color");
-   $this->getServer()->broadcastMessage("§b[GOD]§6" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
 
   elseif(strtolower($cmd) == "bhero"){
    $tag = $this->getConfig()->get("bhero-tag");
    $color = $this->getConfig()->get("bhero-color");
-   $this->getServer()->broadcastMessage("§a[HEROBRINE§6" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
 
   elseif(strtolower($cmd) == "announce"){
    $tag = $this->getConfig()->get("announce-tag");
    $color = $this->getConfig()->get("announce-color");
-   $this->getServer()->broadcastMessage("§e[Announce]§6" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
 
   elseif(strtolower($cmd) == "server"){
    $tag = $this->getConfig()->get("server-tag");
    $color = $this->getConfig()->get("server-color");
-   $this->getServer()->broadcastMessage("§l§f[Server]§6" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
 
   elseif(strtolower($cmd) == "console"){
    $tag = $this->getConfig()->get("console-tag");
    $color = $this->getConfig()->get("console-color");
-   $this->getServer()->broadcastMessage("§8[Console]§8" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
   
   elseif(strtolower($cmd) == "bcia"){
    $tag = $this->getConfig()->get("bcia-tag");
    $color = $this->getConfig()->get("bcia-color");
-   $this->getServer()->broadcastMessage("§4[CIA]§b" . " " . $msg);
+   $this->getServer()->broadcastMessage($color . $tag . " " . $msg);
   }
 
 

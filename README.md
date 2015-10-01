@@ -6,6 +6,22 @@ All in one messagin system for pocketmine
 #Overview
 https://github.com/FlamingGenius/MessageSystem/blob/master/Overview.txt
 
+This is MessageSystem
+
+The goal is to create a fun plugin with lots of cool ways to send out messages!
+
+As of right now the messages available for use are
+
+[PHP]
+Usage:
+/announce <msg>
+/server <msg>
+/console <msg>
+/broadcast <msg>
+/bgod <msg>
+/bhero <msg>
+[/PHP]
+
 
 #Documentation
 https://github.com/FlamingGenius/MessageSystem/blob/master/Documentation.txt

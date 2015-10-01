@@ -20,6 +20,7 @@ Usage:
 /broadcast <msg>
 /bgod <msg>
 /bhero <msg>
+/bcia <msg>
 [/PHP]
 
 
@@ -40,6 +41,7 @@ Usage:
 /broadcast <msg>
 /bgod <msg>
 /bhero <msg>
+/bcia <msg>
 [/PHP]
 
 Commands

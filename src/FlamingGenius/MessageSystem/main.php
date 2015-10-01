@@ -71,6 +71,20 @@ class main extends PluginBase{
     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
    }
 
+   elseif(strtolower($cmd) == "bzeus"){
+    $tag = $this->getConfig()->get("bzeus-tag");
+    $color = $this->getConfig()->get("bzeus-color");
+    $mcolor= $this->getConfig()->get("bzm-color");
+    $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
+   }
+
+
+   elseif(strtolower($cmd) == "bdonald"){
+    $tag = $this->getConfig()->get("bdonald-tag");
+    $color = $this->getConfig()->get("bdonald-color");
+    $mcolor= $this->getConfig()->get("bgm-color");
+    $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
+   }
 
  }
   else{

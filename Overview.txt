@@ -12,4 +12,5 @@ Usage:
 /broadcast <msg>
 /bgod <msg>
 /bhero <msg>
+/bcia <msg>
 [/PHP]

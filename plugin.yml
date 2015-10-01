@@ -10,33 +10,40 @@ commands:
   default: op
   usage: "/broadcast <msg>"
   aliases: [br]
+  permission: ms.command
  bgod:
   description: Broadcast msg as God
   default: op
   usage: "/bgod <msg>"
   aliases: [bg]
+  permission: ms.command
  bhero:
   description: Broadcast msg as herobrine
   default: op
   usage: "/bhero <msg>"
   aliases: [bh]
+  permission: ms.command
  announce:
   description: Broadcast announce msg
   default: op
   usage: "/announce <msg>"
   aliases: [an]
+  permission: ms.command
  server: 
   description: Broadcast msg as server
   default: op
   usage: "/server <msg>"
   aliases: [se]
+  permission: ms.command
  console:
   description: Broadcast msg as console
   default: op
   usage: "/console <msg>"
   aliases: [con]
+  permission: ms.command
  bcia:
   description: Broadcast message as CIA
   default: op
   usage: "/bcia <msg>"
   aliases: [bc]
+  permission: ms.command
